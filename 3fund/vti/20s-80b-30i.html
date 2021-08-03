@@ -1,249 +1,173 @@
-<html>
-<head>
-<title>vti 20/80 (30i)</title>
-<meta http-equiv='refresh' content='150' >
-<style>
-.right { text-align: right; font-size: 18pt;}
-.rightSmall { text-align: right; font-size: 10pt}
-.live {
-  text-align:right;
-  background:lightyellow;
-  font-size:18pt;
-  }
-html, body{
-    height: 100 %;
-    width: 100 %;
-    padding: 0;
-    margin: 0;
-  }
-</style>
-<script src='https://cdn.jsdelivr.net/npm/chart.js@3.4.1/dist/chart.min.js'></script>
-</head>
-<body>
-<div>Performance for 20/80 (30% intl)  VTI/BND (VXUS)</div>
-<div>&nbsp</div>
-<script>
-            function drawCharts() {
-            var yearCtx = document.getElementById('yearChartCanvas').getContext('2d');
-            var yearChart = new Chart(yearCtx, {
-          type: 'line',
-          height: 400,
-          data:
-            {
-            labels:[['EOY',''],['January','-.66%'],['February','-.77%'],['March','-.64%'],['April','+1.42%'],['May','+.33%'],['June','+.78%'],['July','+.96%'],['August','+.29%']],
-            datasets:
-                [{
-                data:[10000.0,9933.88,9856.86,9793.19,9934.86,9968.24,10046.39,10142.76,10171.47],
-                label: '2021',
-                borderColor: '#3e95cd',
-                backgroundColor: '#7bb6dd',
-                fill: false,
-              }]
-            },
-          options:
-            {
-            responsive: true,
-            maintainAspectRatio: true,
-            scales: {
-               x: {
-                    ticks: {
-                        font: {
-                            size: 24,
-                            },
-                    }
-                }
-              }
-            },
-     });
+Performance for 20/80 (30% intl)  VTI/BND (VXUS)
 
-     var monthCtx = document.getElementById('monthChartCanvas').getContext('2d');
-            var monthChart = new Chart(monthCtx, {
-          type: 'line',
-          height: 400,
-          data:
-            {
-            labels:['EOM',['8/2','+.12%'],['8/3','+.17%','15:58 ET']],
-            datasets:
-                [{
-                data:[10142.8,10154.31,10171.45],
-                label: 'August',
-                borderColor: '#3e95cd',
-                backgroundColor: '#7bb6dd',
-                fill: false,
-              }]
-            },
-          options:
-            {
-            responsive: true,
-            maintainAspectRatio: true,
-                        scales: {
-               x: {
-                    ticks: {
-                        font: {
-                            size: 24,
-                            },
-                    }
-                }
-              }
-            },
-     });
-     }
-            window.onload = drawCharts;
-            window.document.title = '+.17%  ' + window.document.title; 
-    </script>
-<div>&nbsp</div>
-<table style=width:100%;max-width:8in>
-<tr><td class=right></td><td class=right>Appreciation %</td><td class=right style=padding-right:7%>Dividend %</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right colspan=3><canvas id=yearChartCanvas style=max-width:8in;max-height:6in></canvas></td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2021 YTD </td><td class=live>  1.85%</td><td class=right style=padding-right:7%>   .91%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right colspan=3><canvas id=monthChartCanvas style=max-width:8in;max-height:6in></canvas></td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2020:</td><td class=right></td><td class=right style=padding-right:7%></td></tr>
-<tr><td class=right>January</td><td class=right>   1.52%</td><td class=right style=padding-right:7%>.00%</td></tr>
-<tr><td class=right>February</td><td class=right>   -.34%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>March</td><td class=right>  -3.58%</td><td class=right style=padding-right:7%>.23%</td></tr>
-<tr><td class=right>April</td><td class=right>   3.51%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>May</td><td class=right>   1.27%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>June</td><td class=right>    .91%</td><td class=right style=padding-right:7%>.25%</td></tr>
-<tr><td class=right>July</td><td class=right>   2.12%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>August</td><td class=right>    .33%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>September</td><td class=right>   -.82%</td><td class=right style=padding-right:7%>.24%</td></tr>
-<tr><td class=right>October</td><td class=right>  -1.01%</td><td class=right style=padding-right:7%>.12%</td></tr>
-<tr><td class=right>November</td><td class=right>   3.23%</td><td class=right style=padding-right:7%>.12%</td></tr>
-<tr><td class=right>December</td><td class=right>    .57%</td><td class=right style=padding-right:7%>.49%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2020 Year</td><td class=right>  7.29%</td><td class=right style=padding-right:7%>  2.14%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2019:</td><td class=right></td><td class=right style=padding-right:7%></td></tr>
-<tr><td class=right>January</td><td class=right>   2.47%</td><td class=right style=padding-right:7%>.00%</td></tr>
-<tr><td class=right>February</td><td class=right>    .35%</td><td class=right style=padding-right:7%>.16%</td></tr>
-<tr><td class=right>March</td><td class=right>   1.56%</td><td class=right style=padding-right:7%>.26%</td></tr>
-<tr><td class=right>April</td><td class=right>    .52%</td><td class=right style=padding-right:7%>.16%</td></tr>
-<tr><td class=right>May</td><td class=right>    .04%</td><td class=right style=padding-right:7%>.16%</td></tr>
-<tr><td class=right>June</td><td class=right>   1.95%</td><td class=right style=padding-right:7%>.27%</td></tr>
-<tr><td class=right>July</td><td class=right>    .13%</td><td class=right style=padding-right:7%>.16%</td></tr>
-<tr><td class=right>August</td><td class=right>   1.57%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>September</td><td class=right>   -.34%</td><td class=right style=padding-right:7%>.27%</td></tr>
-<tr><td class=right>October</td><td class=right>    .54%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>November</td><td class=right>    .39%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>December</td><td class=right>    .01%</td><td class=right style=padding-right:7%>.46%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2019 Year</td><td class=right>  9.63%</td><td class=right style=padding-right:7%>  2.33%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2018:</td><td class=right></td><td class=right style=padding-right:7%></td></tr>
-<tr><td class=right>January</td><td class=right>    .18%</td><td class=right style=padding-right:7%>.00%</td></tr>
-<tr><td class=right>February</td><td class=right>  -1.77%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>March</td><td class=right>   -.09%</td><td class=right style=padding-right:7%>.22%</td></tr>
-<tr><td class=right>April</td><td class=right>   -.71%</td><td class=right style=padding-right:7%>.16%</td></tr>
-<tr><td class=right>May</td><td class=right>    .59%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>June</td><td class=right>   -.36%</td><td class=right style=padding-right:7%>.27%</td></tr>
-<tr><td class=right>July</td><td class=right>    .49%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>August</td><td class=right>    .62%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>September</td><td class=right>   -.72%</td><td class=right style=padding-right:7%>.27%</td></tr>
-<tr><td class=right>October</td><td class=right>  -2.31%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>November</td><td class=right>    .61%</td><td class=right style=padding-right:7%>.16%</td></tr>
-<tr><td class=right>December</td><td class=right>   -.66%</td><td class=right style=padding-right:7%>.44%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2018 Year</td><td class=right> -4.23%</td><td class=right style=padding-right:7%>  2.24%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2017:</td><td class=right></td><td class=right style=padding-right:7%></td></tr>
-<tr><td class=right>January</td><td class=right>    .74%</td><td class=right style=padding-right:7%>.00%</td></tr>
-<tr><td class=right>February</td><td class=right>    .98%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>March</td><td class=right>   -.11%</td><td class=right style=padding-right:7%>.21%</td></tr>
-<tr><td class=right>April</td><td class=right>    .72%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>May</td><td class=right>    .76%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>June</td><td class=right>   -.15%</td><td class=right style=padding-right:7%>.25%</td></tr>
-<tr><td class=right>July</td><td class=right>    .65%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>August</td><td class=right>    .59%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>September</td><td class=right>   -.23%</td><td class=right style=padding-right:7%>.23%</td></tr>
-<tr><td class=right>October</td><td class=right>    .31%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>November</td><td class=right>    .21%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>December</td><td class=right>    .12%</td><td class=right style=padding-right:7%>.43%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2017 Year</td><td class=right>  4.89%</td><td class=right style=padding-right:7%>  2.08%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2016:</td><td class=right></td><td class=right style=padding-right:7%></td></tr>
-<tr><td class=right>January</td><td class=right>   -.01%</td><td class=right style=padding-right:7%>.00%</td></tr>
-<tr><td class=right>February</td><td class=right>    .25%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>March</td><td class=right>   2.01%</td><td class=right style=padding-right:7%>.21%</td></tr>
-<tr><td class=right>April</td><td class=right>    .36%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>May</td><td class=right>    .02%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>June</td><td class=right>   1.24%</td><td class=right style=padding-right:7%>.23%</td></tr>
-<tr><td class=right>July</td><td class=right>   1.18%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>August</td><td class=right>   -.21%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>September</td><td class=right>   -.19%</td><td class=right style=padding-right:7%>.22%</td></tr>
-<tr><td class=right>October</td><td class=right>  -1.24%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>November</td><td class=right>  -1.72%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>December</td><td class=right>    .04%</td><td class=right style=padding-right:7%>.42%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2016 Year</td><td class=right>  1.62%</td><td class=right style=padding-right:7%>  2.02%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2015:</td><td class=right></td><td class=right style=padding-right:7%></td></tr>
-<tr><td class=right>January</td><td class=right>   1.45%</td><td class=right style=padding-right:7%>.00%</td></tr>
-<tr><td class=right>February</td><td class=right>    .10%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>March</td><td class=right>   -.08%</td><td class=right style=padding-right:7%>.21%</td></tr>
-<tr><td class=right>April</td><td class=right>   -.12%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>May</td><td class=right>   -.34%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>June</td><td class=right>  -1.54%</td><td class=right style=padding-right:7%>.23%</td></tr>
-<tr><td class=right>July</td><td class=right>    .69%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>August</td><td class=right>  -1.72%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>September</td><td class=right>   -.29%</td><td class=right style=padding-right:7%>.22%</td></tr>
-<tr><td class=right>October</td><td class=right>   1.33%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>November</td><td class=right>   -.37%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>December</td><td class=right>  -1.25%</td><td class=right style=padding-right:7%>.42%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2015 Year</td><td class=right> -2.33%</td><td class=right style=padding-right:7%>  2.03%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2014:</td><td class=right></td><td class=right style=padding-right:7%></td></tr>
-<tr><td class=right>January</td><td class=right>    .59%</td><td class=right style=padding-right:7%>.00%</td></tr>
-<tr><td class=right>February</td><td class=right>   1.21%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>March</td><td class=right>   -.30%</td><td class=right style=padding-right:7%>.22%</td></tr>
-<tr><td class=right>April</td><td class=right>    .53%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>May</td><td class=right>   1.09%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>June</td><td class=right>    .22%</td><td class=right style=padding-right:7%>.24%</td></tr>
-<tr><td class=right>July</td><td class=right>   -.69%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>August</td><td class=right>   1.35%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>September</td><td class=right>  -1.41%</td><td class=right style=padding-right:7%>.22%</td></tr>
-<tr><td class=right>October</td><td class=right>    .94%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>November</td><td class=right>    .72%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>December</td><td class=right>   -.78%</td><td class=right style=padding-right:7%>.54%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2014 Year</td><td class=right>  3.47%</td><td class=right style=padding-right:7%>  2.20%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2013:</td><td class=right></td><td class=right style=padding-right:7%></td></tr>
-<tr><td class=right>January</td><td class=right>    .45%</td><td class=right style=padding-right:7%>.00%</td></tr>
-<tr><td class=right>February</td><td class=right>    .36%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>March</td><td class=right>    .43%</td><td class=right style=padding-right:7%>.18%</td></tr>
-<tr><td class=right>April</td><td class=right>    .96%</td><td class=right style=padding-right:7%>.25%</td></tr>
-<tr><td class=right>May</td><td class=right>  -1.43%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>June</td><td class=right>  -2.00%</td><td class=right style=padding-right:7%>.22%</td></tr>
-<tr><td class=right>July</td><td class=right>   1.03%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>August</td><td class=right>  -1.18%</td><td class=right style=padding-right:7%>.13%</td></tr>
-<tr><td class=right>September</td><td class=right>   1.50%</td><td class=right style=padding-right:7%>.21%</td></tr>
-<tr><td class=right>October</td><td class=right>   1.22%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>November</td><td class=right>   -.03%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>December</td><td class=right>   -.60%</td><td class=right style=padding-right:7%>.43%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2013 Year</td><td class=right>  1.22%</td><td class=right style=padding-right:7%>  2.10%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2012:</td><td class=right></td><td class=right style=padding-right:7%></td></tr>
-<tr><td class=right>January</td><td class=right>   1.86%</td><td class=right style=padding-right:7%>.00%</td></tr>
-<tr><td class=right>February</td><td class=right>    .64%</td><td class=right style=padding-right:7%>.16%</td></tr>
-<tr><td class=right>March</td><td class=right>   -.33%</td><td class=right style=padding-right:7%>.20%</td></tr>
-<tr><td class=right>April</td><td class=right>    .46%</td><td class=right style=padding-right:7%>.19%</td></tr>
-<tr><td class=right>May</td><td class=right>   -.93%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>June</td><td class=right>    .64%</td><td class=right style=padding-right:7%>.20%</td></tr>
-<tr><td class=right>July</td><td class=right>   1.11%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>August</td><td class=right>    .42%</td><td class=right style=padding-right:7%>.15%</td></tr>
-<tr><td class=right>September</td><td class=right>    .30%</td><td class=right style=padding-right:7%>.24%</td></tr>
-<tr><td class=right>October</td><td class=right>   -.28%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>November</td><td class=right>    .18%</td><td class=right style=padding-right:7%>.14%</td></tr>
-<tr><td class=right>December</td><td class=right>   -.65%</td><td class=right style=padding-right:7%>.72%</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class=right>2012 Year</td><td class=right>  3.43%</td><td class=right style=padding-right:7%>  2.45%</td></tr>
-<tr><td>&nbsp;</td></tr>
-</table>
-</body><html>
+  Appreciation % |  Dividend %
+
+----------------------------------
+2021:
+    January    -.66%          .00%
+    February    -.77%          .11%
+    March    -.64%          .21%
+    April    1.42%          .15%
+    May     .33%          .10%
+    June     .78%          .23%
+    July     .96%          .11%
+    August     .12%          .00%
+==================================
+2021 YTD   1.66%          .91%
+
+--- August Days -------
+    02      .12% 
+
+----------------------------------
+2020:
+    January    1.52%          .00%
+    February    -.34%          .15%
+    March   -3.58%          .23%
+    April    3.51%          .15%
+    May    1.27%          .14%
+    June     .91%          .25%
+    July    2.12%          .13%
+    August     .33%          .13%
+    September    -.82%          .24%
+    October   -1.01%          .12%
+    November    3.23%          .12%
+    December     .57%          .49%
+==================================
+2020 Year  7.29%         2.14%
+
+----------------------------------
+2019:
+    January    2.47%          .00%
+    February     .35%          .16%
+    March    1.56%          .26%
+    April     .52%          .16%
+    May     .04%          .16%
+    June    1.95%          .27%
+    July     .13%          .16%
+    August    1.57%          .15%
+    September    -.34%          .27%
+    October     .54%          .15%
+    November     .39%          .15%
+    December     .01%          .46%
+==================================
+2019 Year  9.63%         2.33%
+
+----------------------------------
+2018:
+    January     .18%          .00%
+    February   -1.77%          .14%
+    March    -.09%          .22%
+    April    -.71%          .16%
+    May     .59%          .14%
+    June    -.36%          .27%
+    July     .49%          .14%
+    August     .62%          .15%
+    September    -.72%          .27%
+    October   -2.31%          .15%
+    November     .61%          .16%
+    December    -.66%          .44%
+==================================
+2018 Year -4.23%         2.24%
+
+----------------------------------
+2017:
+    January     .74%          .00%
+    February     .98%          .13%
+    March    -.11%          .21%
+    April     .72%          .14%
+    May     .76%          .13%
+    June    -.15%          .25%
+    July     .65%          .14%
+    August     .59%          .14%
+    September    -.23%          .23%
+    October     .31%          .13%
+    November     .21%          .14%
+    December     .12%          .43%
+==================================
+2017 Year  4.89%         2.08%
+
+----------------------------------
+2016:
+    January    -.01%          .00%
+    February     .25%          .14%
+    March    2.01%          .21%
+    April     .36%          .14%
+    May     .02%          .13%
+    June    1.24%          .23%
+    July    1.18%          .13%
+    August    -.21%          .13%
+    September    -.19%          .22%
+    October   -1.24%          .13%
+    November   -1.72%          .13%
+    December     .04%          .42%
+==================================
+2016 Year  1.62%         2.02%
+
+----------------------------------
+2015:
+    January    1.45%          .00%
+    February     .10%          .14%
+    March    -.08%          .21%
+    April    -.12%          .15%
+    May    -.34%          .13%
+    June   -1.54%          .23%
+    July     .69%          .13%
+    August   -1.72%          .14%
+    September    -.29%          .22%
+    October    1.33%          .13%
+    November    -.37%          .14%
+    December   -1.25%          .42%
+==================================
+2015 Year -2.33%         2.03%
+
+----------------------------------
+2014:
+    January     .59%          .00%
+    February    1.21%          .14%
+    March    -.30%          .22%
+    April     .53%          .15%
+    May    1.09%          .14%
+    June     .22%          .24%
+    July    -.69%          .14%
+    August    1.35%          .14%
+    September   -1.41%          .22%
+    October     .94%          .13%
+    November     .72%          .14%
+    December    -.78%          .54%
+==================================
+2014 Year  3.47%         2.20%
+
+----------------------------------
+2013:
+    January     .45%          .00%
+    February     .36%          .13%
+    March     .43%          .18%
+    April     .96%          .25%
+    May   -1.43%          .13%
+    June   -2.00%          .22%
+    July    1.03%          .13%
+    August   -1.18%          .13%
+    September    1.50%          .21%
+    October    1.22%          .14%
+    November    -.03%          .14%
+    December    -.60%          .43%
+==================================
+2013 Year  1.22%         2.10%
+
+----------------------------------
+2012:
+    January    1.86%          .00%
+    February     .64%          .16%
+    March    -.33%          .20%
+    April     .46%          .19%
+    May    -.93%          .15%
+    June     .64%          .20%
+    July    1.11%          .15%
+    August     .42%          .15%
+    September     .30%          .24%
+    October    -.28%          .14%
+    November     .18%          .14%
+    December    -.65%          .72%
+==================================
+2012 Year  3.43%         2.45%
+
