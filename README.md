@@ -16,4 +16,4 @@
 [Molnupiravir @ therapeutics locator](https://covid-19-therapeutics-locator-dhhs.hub.arcgis.com/) - HHS map based site can help you find Molnupiravir.
 
 # Other Sites (non-Covid/Health)
-[rrelyea.github.io/3fund](https://rrelyea.github.io/3fund) - stock market data powers this 3 Fund Portfolio viewer.
+[rrelyea.github.io/3fund](https://rrelyea.github.io/3fund) - stock market data powers this 3-Fund Portfolio viewer.
