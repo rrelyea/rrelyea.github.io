@@ -11,9 +11,9 @@
 
 [rrelyea.github.io/bebtelovimab](https://rrelyea.github.io/bebtelovimab) - healthdata.gov data powers this Bebtelovimab locator.
 
-[rrelyea.github.io/sotrovimab](https://rrelyea.github.io/sotrovimab) - healthdata.gov data powers this Sotrovimab locator.
+[rrelyea.github.io/lagevrio](https://rrelyea.github.io/lagevrio) - healthdata.gov data powers this Lagevrio (molnupiravir) locator.
 
-[Molnupiravir @ therapeutics locator](https://covid-19-therapeutics-locator-dhhs.hub.arcgis.com/) - HHS map based site can help you find Molnupiravir.
+[rrelyea.github.io/sotrovimab](https://rrelyea.github.io/sotrovimab) - due to growth of BA.2, Sotrovimab is no longer in use in the U.S.
 
 # Other Sites (non-Covid/Health)
 [rrelyea.github.io/3fund](https://rrelyea.github.io/3fund) - stock market data powers this 3-Fund Portfolio viewer.
