@@ -13,7 +13,8 @@
 
 [rrelyea.github.io/lagevrio](https://rrelyea.github.io/lagevrio) - healthdata.gov data powers this Lagevrio (molnupiravir) locator.
 
-rrelyea.github.io/sotrovimab - due to growth of BA.2, Sotrovimab is no longer in use in the U.S.
+# Clinical Trials Search
+[rrelyea.github.io/trials](https://rrelyea.github.io/trials) - clinicaltrials.gov data powers this search engine
 
 # Other Sites (non-Covid/Health)
 [rrelyea.github.io/3fund](https://rrelyea.github.io/3fund) - stock market data powers this 3-Fund Portfolio viewer.
