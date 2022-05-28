@@ -1,9 +1,9 @@
 
-# Covid Prevention
-## vaccinate &amp; boost!
-[vaccines.gov](https://vaccines.gov) - find a covid-19 vaccine nationwide.
+# Covid-Safe: Covid Prevention Medicines, Precautionary Measures, and Treatment
 
-## additionally for Immunocompromised:
+# Covid-Safe: [rrelyea.github.io/covid-safe](https://rrelyea.github.io/covid-safe)
+
+# additionally for Immunocompromised:
 [rrelyea.github.io/evusheld](https://rrelyea.github.io/evusheld) - healthdata.gov data powers this Evusheld locator.
 
 # Covid Treatment
