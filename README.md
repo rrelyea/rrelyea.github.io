@@ -1,8 +1,8 @@
 
-# Covid-Safe: 
+# Covid-Safe 
 
-## Covid-Safe: Covid Prevention Medicines, Precautionary Measures, and Treatment
-[rrelyea.github.io/covid-safe](https://rrelyea.github.io/covid-safe)
+## Covid-Safe
+[rrelyea.github.io/covid-safe](https://rrelyea.github.io/covid-safe) - Prevention Medicines, Precautionary Measures, and Treatment
 
 # additionally for Immunocompromised:
 [rrelyea.github.io/evusheld](https://rrelyea.github.io/evusheld) - healthdata.gov data powers this Evusheld locator.
