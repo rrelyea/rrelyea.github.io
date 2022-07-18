@@ -2,17 +2,17 @@
 # Covid-Safe 
 
 ## Covid-Safe
-[rrelyea.github.io/covid-safe](https://rrelyea.github.io/covid-safe) - Prevention Medicines, Precautionary Measures, and Treatment
+[CovidSafe.fyi](https://CovidSafe.fyi) - Prevention Medicines, Precautionary Measures, and Treatment
 
 # additionally for Immunocompromised:
-[rrelyea.github.io/evusheld](https://rrelyea.github.io/evusheld) - healthdata.gov data powers this Evusheld locator.
+[CovidSafe.fyi/evusheld](https://CovidSafe.fyi/evusheld) - healthdata.gov data powers this Evusheld locator.
 
 # Covid Treatment
-[rrelyea.github.io/paxlovid](https://rrelyea.github.io/paxlovid) - healthdata.gov data powers this Paxlovid locator.
+[CovidSafe.fyi/paxlovid](https://CovidSafe.fyi/paxlovid) - healthdata.gov data powers this Paxlovid locator.
 
-[rrelyea.github.io/bebtelovimab](https://rrelyea.github.io/bebtelovimab) - healthdata.gov data powers this Bebtelovimab locator.
+[CovidSafe.fyi/bebtelovimab](https://CovidSafe.fyi/bebtelovimab) - healthdata.gov data powers this Bebtelovimab locator.
 
-[rrelyea.github.io/lagevrio](https://rrelyea.github.io/lagevrio) - healthdata.gov data powers this Lagevrio (molnupiravir) locator.
+[CovidSafe.fyi/lagevrio](https://CovidSafe.fyi/lagevrio) - healthdata.gov data powers this Lagevrio (molnupiravir) locator.
 
 # Clinical Trials Search
 [rrelyea.github.io/trials](https://rrelyea.github.io/trials) - clinicaltrials.gov data powers this search engine
