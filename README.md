@@ -15,7 +15,7 @@
 [CovidSafe.fyi/lagevrio](https://CovidSafe.fyi/lagevrio) - healthdata.gov data powers this Lagevrio (molnupiravir) locator.
 
 # Clinical Trials Search
-[rrelyea.github.io/trials](https://rrelyea.github.io/trials) - clinicaltrials.gov data powers this search engine
+[clinicaltrials.fyi](https://clinicaltrials.fyi) - clinicaltrials.gov data powers this search engine
 
 # Other Sites (non-Covid/Health)
 [rrelyea.github.io/3fund](https://rrelyea.github.io/3fund) - stock market data powers this 3-Fund Portfolio viewer.
